@@ -13,51 +13,26 @@
   {% assign publication = 'zzz' %}
 {% endif %}
 
+
 <div id="bib-item-{{ entry.key }}" class="bib-entry my-3"
   data-searchable
   data-year="{{ entry.year }}"
   data-title="{{ entry.title }}"
   data-author="{{ entry.author }}"
   data-publication="{{ publication }}">
-  {{ reference }}
+  {{ reference }}<br>
 
-  <div>
     {% if entry.doi %}
-      <a class="badge badge-pill badge-secondary" href="https://doi.org/{{ entry.doi }}" target="_blank" title="{{ entry.title }}">DOI</a>
+      <a href="https://doi.org/{{ entry.doi }}" target="_blank" title="{{ entry.title }}">
+        <button type="button" class="btn btn--inverse">
+          DOI
+        </button></a>
     {% endif %}
-
     {% if entry.arxivid %}
-      <a class="badge badge-pill badge-secondary" href="https://arxiv.org/abs/{{ entry.arxivid }}" target="_blank">arXiv</a>
+      <a href="https://arxiv.org/abs/{{ entry.arxivid }}" target="_blank">
+        <button type="button" class="btn btn--inverse">
+          arXiv
+        </button></a>
     {% endif %}
-
-    {% if entry.clctags %}
-      {% assign rawtags = entry.clctags %}
-      {% assign tags = rawtags | split: "," %}
-      {% for tag in tags %}
-        <a href="#" class="badge badge-pill badge-light">
-          {{ tag }}
-        </a>
-      {% endfor %}
-    {% endif %}
-  </div>
-
-  <div class="modal fade" id="bibtexmodal-{{ entry.key }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">{{ entry.title }}</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <pre>{{ entry.bibtex }}</pre>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
 </div>
+<br>

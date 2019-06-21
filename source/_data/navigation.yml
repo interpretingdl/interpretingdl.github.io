@@ -2,8 +2,36 @@ main:
   - title: "Summary"
     url: /
   - title: "Members"
-    url: /members/
-  #- title: "Tags"
-  #  url: /tags/
-  #- title: "About"
-  #  url: /about/
+    url: /members
+
+pubnav:
+  - title: Year
+    children:
+      - title: "2018"
+        url: "papers#2018"
+      - title: "2017"
+        url: "papers#2017"
+      - title: "2015"
+        url: "papers#2015"
+  - title: Download
+    children:
+      - title: "Download all references as BibTeX file"
+        url: "publications/interpretingdl.bib"
+
+methods:
+  - title: Hypothesis-driven methods
+    url: "methods#hypothesis-driven-methods"
+    children:
+      - title: "•	Diagnostic classifiers"
+        url: "methods#dc"
+      - title: "•	Representational Similarity Analysis"
+        url: "methods#rsa"
+      - title: "•	Canonical correlation analysis"
+        url: "methods#cca"
+  - title: "Data-driven methods"
+    url: "methods#data-driven-methods"
+    children:
+      - title: "•	Layer-wise Relevance Propagation"
+        url: "methods#lrp"
+      - title: "•	Contextual Decomposition"
+        url: "methods#cd"
