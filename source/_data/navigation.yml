@@ -3,6 +3,8 @@ main:
     url: /
   - title: "Members"
     url: /members
+  - title: "Key papers"
+    url: /papers
 
 pubnav:
   - title: Year
