@@ -25,7 +25,6 @@ A variety of analysis techniques have been proposed in the academic literature f
 
 <a name="rsa"></a> **Representational Similarity Analysis (RSA)** methods are borrowed from neuroscience, and used for correlating data points from two different representation spaces. When applied to deep learning models, layer activations construct one such representation space and are compared to the (structured) linguistic representations of each data item.
 
-
 <a name="cca"></a> **Canonical correlation analysis (CCA)** techniques allow activations of a deep NLP model to be correlated with those of a parallel predictive model through estimating the strength of association between two canonical variates.
 
 Each of these categories of techniques offer strengths and weaknesses. Our focus is to understand the strengths and weaknesses of each category of techniques, and identify which type of network architecture and analysis task they are best suitable for. Furthermore, we will develop integrated methods that combine the exploratory power of each type of technique[^1]. Finally, we will develop a unified framework for applying different interpretation techniques to each case, depending on the characteristics of the task, the modality of the input and the architecture of the model under investigation.
@@ -41,4 +40,4 @@ Next to evaluating the representations learned by neural networks, we are also c
 
 Both data-driven methods again have their own advantages and disadvantages. We aim to combine the advantages of both methods to create a _best-of-both worlds_ technique that can show in a computationally efficient way which inputs and model components are responsible for the current model's decision. We will define and test this technique for several different types of models with different non-linear dynamics and compare the results. Furthermore, we add a specific focus to the influence of the model's biases, a better understanding of which may play an important role in the development of models that make more fair and predictable decisions.
 
-[^1]: A preliminary attempt at combining diagnostic classifiers and RSA-based techniques has been recently published by [Chrupała & Alishahi at ACL 2019](https://arxiv.org/abs/1905.06401).
+[^1]: A study combining diagnostic classifiers and RSA-based techniques has been recently published by [Chrupała & Alishahi at ACL 2019](https://arxiv.org/abs/1905.06401).
