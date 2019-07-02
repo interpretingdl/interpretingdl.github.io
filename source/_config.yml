@@ -306,8 +306,8 @@ defaults:
 # Scholar config
 scholar:
   style: apa-no-doi-no-issue
-  sort_by: year
-  order: descending
+  sort_by: author
+  order: ascending
   bibliography: interpretingdl.bib
   bibliography_template: bibtemplate
   bibliography_list_tag: div
