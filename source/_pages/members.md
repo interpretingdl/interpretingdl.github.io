@@ -1,5 +1,5 @@
 ---
-title: "Consortium members"
+title: "Network members"
 layout: single
 classes: wide
 permalink: /members
@@ -7,8 +7,10 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/network-bw-1.png
 sidebar:
-  - text: "All members of the consortium are actively working on interpretability, but they have come to this topic from very different domains. The consortium brings together crucial expertise on methodology, lexical semantics, semantic and syntactic parsing, machine translation, computational phonology, music recommendation, language acquisition and more. This will allow us to give different perspectives towards what interpretation of deep learning means in different scenerios and for different goals."
+  nav: nav
 ---
+
+All members of the network are actively working on interpretability, but they have come to this topic from very different domains. The network brings together crucial expertise on methodology, lexical semantics, semantic and syntactic parsing, machine translation, computational phonology, music recommendation, language acquisition and more. This will allow us to give different perspectives towards what interpretation of deep learning means in different scenerios and for different goals.
 
 <img style="float: left; width: 20%; margin-right: 20px; margin-top: 15px; margin-bottom: 5px;" src="../assets/images/jelle2015.jpg">
 **Willem Zuidema** is associate professor of computational linguistics and cognitive science at ILLC (UvA), with a long term interest in the neural basis of language. Because of that cognitive interest, was early contributor to deep learning in NLP, with work on neural parsing published as early as 2008 (Borensztajn & Zuidema, 2008, CogSci), and pioneering contributions on tree-shaped neural networks, including the TreeLSTM (Le & Zuidema {% cite le2015 -A %} <!--2015-->, \*SEM; published concurrently with groups from Stanford and Montreal). In 2016 he and his students introduced Diagnostic Classification {% cite veldhoen2016 hupkes2018 giulianelli2018 %} <!--(Veldhoen et al., 2016; Hupkes et al 2018; Giulianelli et al. 2018)-->, one of the key _interpretability_ techniques. He further performed research on the integration of formal logic and deep learning {% cite veldhoen2017 repplinger2018 mul2019 %} <!--(Veldhoen & Zuidema, 2017; Repplinger, Beinborn & Zuidema, 2018; Mul & Zuidema, 2019)-->. Other directly relevant work focuses on other _interpretability techniques_ including Representational Similarity Analysis {% cite abnar2019 %} <!--(Abnar et al., 2019)--> and contextual decomposition (Jumelet et al., 2019).
@@ -29,7 +31,7 @@ is an assistant professor at the Leiden Institute of Advanced Computer Science (
 **Louis ten Bosch** (RU, Nijmegen) has expertise in automatic speech recognition, _computational modelling of cognitive processes_, speech decoding techniques using phonological features, and structure discovery methods. He is one of the coorganizers of the successful DNN interpretation session “what we learn from DNNs” that took place in 2018 at the language and speech technology conference Interspeech in Hyderabad, India. One of the recent advances in understanding artificial networks is achieved by relating the mathematical layer-to-layer transformations in a network to the more structural description of datasets as shown by linear mixed effect models and by Generalized Additive Models. More recently, in collaboration with Mirjam Ernestus, he is involved in computational models of human spoken word comprehension, a number of abstract-versus-exemplar studies in psycholinguistics, and (with Ton Dijkstra) in computational modelling of  online sentence processing of idiomatic expressions.
 
 <img style="float: left; width: 20%; margin-right: 20px; margin-top: 15px; margin-bottom: 5px;" src="../assets/images/hendrickx.jpeg">
-**Iris Hendrickx** (RU, Nijmegen) is a researcher in computational linguistics and digital humanities with a focus on the areas of machine learning, lexical and relational semantics, natural language processing, techniques for document understanding and text mining. She provides expertise to the consortium on creating text data enriched with human annotation for training such models, and on applying and evaluating these models and augmenting them with domain expert knowledge.
+**Iris Hendrickx** (RU, Nijmegen) is a researcher in computational linguistics and digital humanities with a focus on the areas of machine learning, lexical and relational semantics, natural language processing, techniques for document understanding and text mining. She provides expertise to the network on creating text data enriched with human annotation for training such models, and on applying and evaluating these models and augmenting them with domain expert knowledge.
 
 **Antske Fokkens**
 <!--is an assistant professor in computational linguistics at the Vrije Universiteit. Her main expertise lie in methodological questions in computational linguistics and, in particular, the importance of understanding the implications of chosen technologies, training data and features when applying computational language models in interdisciplinary contexts. She is a recognized international expert (with 16 funded international invitations) and has obtained multiple research grants, including a VENI grant in 2015 and co-applicantship of an NWO Vrije Competitie grant, as well as project funding from societal partners (leading up to a total of over 2.5M of research funds).-->

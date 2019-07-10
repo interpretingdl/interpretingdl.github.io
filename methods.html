@@ -127,13 +127,7 @@
           <a class="site-logo" href="/"><img src="/assets/images/brain.png" alt=""></a>
         
         <a class="site-title" href="/">InterpretingDL</a>
-        <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/" >Summary</a>
-            </li><li class="masthead__menu-item">
-              <a href="/members" >Members</a>
-            </li><li class="masthead__menu-item">
-              <a href="/papers" >Key papers</a>
-            </li></ul>
+        <ul class="visible-links"></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -209,37 +203,9 @@
           
           
 
-          <a href="/methods#hypothesis-driven-methods"><span class="nav__sub-title">Hypothesis-driven methods</span></a>
+          <a href="/"><span class="nav__sub-title">Summary</span></a>
         
 
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/methods#dc" class="">•	Diagnostic classifiers</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/methods#rsa" class="">•	Representational Similarity Analysis</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="/methods#cca" class="">•	Canonical correlation analysis</a></li>
-          
-        </ul>
         
       </li>
     
@@ -248,29 +214,31 @@
           
           
 
-          <a href="/methods#data-driven-methods"><span class="nav__sub-title">Data-driven methods</span></a>
+          <a href="/methods"><span class="nav__sub-title">Methods</span></a>
         
 
         
-        <ul>
+      </li>
+    
+      <li>
+        
           
-            
-            
-
-            
-            
-
-            <li><a href="/methods#lrp" class="">•	Layer-wise Relevance Propagation</a></li>
           
-            
-            
 
-            
-            
+          <a href="/members"><span class="nav__sub-title">Members</span></a>
+        
 
-            <li><a href="/methods#cd" class="">•	Contextual Decomposition</a></li>
+        
+      </li>
+    
+      <li>
+        
           
-        </ul>
+          
+
+          <a href="/papers"><span class="nav__sub-title">Key papers</span></a>
+        
+
         
       </li>
     
@@ -292,7 +260,7 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>One of the main goals of this project is to develop a general-purpose framework for applying appropriate analysis and interpretation methods to neural network models of text and speech. We focus on two types of interpretation techniques to evaluate neural models: <em>data-driven</em> and <em>hypothesis-driven</em> methods.</p>
+        <p>One of the main goals of the InterpretingDL network is to develop a general-purpose framework for applying appropriate analysis and interpretation methods to neural network models of text and speech. We focus on two types of interpretation techniques to evaluate neural models: <em>data-driven</em> and <em>hypothesis-driven</em> methods.</p>
 
 <p>Hypothesis-driven methods test whether specific a priori defined information can be decoded from the internal states of a neural model. For instance, hypothesis-driven methods can be used to answer questions like “Does my translation model encode morphology?”.</p>
 
@@ -303,7 +271,7 @@
 <h1 id="hypothesis-driven-methods">Hypothesis-driven methods</h1>
 <p>A variety of analysis techniques have been proposed in the academic literature for better understanding the representations learned by deep learning models of language. The main families of such methods include <em>diagnostic classifiers</em> (or <em>probing techniques</em>), <em>representational similarity analysis</em> and <em>canonical correlation analysis</em>.</p>
 
-<p><a name="dc"></a><strong>Diagnostic classifiers</strong> often use the activations from different layers of a deep learning architecture as input to a prediction model. Success in predicting the target information is taken as evidence that the original model encodes that information in order to perform the task it is optimized for.</p>
+<p><a name="dc"></a> <strong>Diagnostic classifiers</strong> often use the activations from different layers of a deep learning architecture as input to a prediction model. Success in predicting the target information is taken as evidence that the original model encodes that information in order to perform the task it is optimized for.</p>
 
 <p><a name="rsa"></a> <strong>Representational Similarity Analysis (RSA)</strong> methods are borrowed from neuroscience, and used for correlating data points from two different representation spaces. When applied to deep learning models, layer activations construct one such representation space and are compared to the (structured) linguistic representations of each data item.</p>
 

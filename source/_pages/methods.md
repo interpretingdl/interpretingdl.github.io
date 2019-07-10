@@ -7,10 +7,10 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/network-bw-1.png
 sidebar:
-  nav: methods
+  nav: nav
 ---
 
-One of the main goals of this project is to develop a general-purpose framework for applying appropriate analysis and interpretation methods to neural network models of text and speech. We focus on two types of interpretation techniques to evaluate neural models: _data-driven_ and _hypothesis-driven_ methods.
+One of the main goals of the InterpretingDL network is to develop a general-purpose framework for applying appropriate analysis and interpretation methods to neural network models of text and speech. We focus on two types of interpretation techniques to evaluate neural models: _data-driven_ and _hypothesis-driven_ methods.
 
 Hypothesis-driven methods test whether specific a priori defined information can be decoded from the internal states of a neural model. For instance, hypothesis-driven methods can be used to answer questions like "Does my translation model encode morphology?".
 
@@ -21,7 +21,7 @@ We aim to _advance_ and _integrate_ both types of interpretation techniques, as 
 # Hypothesis-driven methods
 A variety of analysis techniques have been proposed in the academic literature for better understanding the representations learned by deep learning models of language. The main families of such methods include _diagnostic classifiers_ (or _probing techniques_), _representational similarity analysis_ and _canonical correlation analysis_.
 
-<a name="dc"></a>**Diagnostic classifiers** often use the activations from different layers of a deep learning architecture as input to a prediction model. Success in predicting the target information is taken as evidence that the original model encodes that information in order to perform the task it is optimized for.
+<a name="dc"></a> **Diagnostic classifiers** often use the activations from different layers of a deep learning architecture as input to a prediction model. Success in predicting the target information is taken as evidence that the original model encodes that information in order to perform the task it is optimized for.
 
 <a name="rsa"></a> **Representational Similarity Analysis (RSA)** methods are borrowed from neuroscience, and used for correlating data points from two different representation spaces. When applied to deep learning models, layer activations construct one such representation space and are compared to the (structured) linguistic representations of each data item.
 
