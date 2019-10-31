@@ -1,8 +1,8 @@
 ---
-title: "Network members"
+title: "People"
 layout: single
 classes: wide
-permalink: /members
+permalink: /people
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/network-bw-1.png
@@ -22,8 +22,7 @@ All members of the network are actively working on interpretability, but they ha
 **Grzegorz Chrupała** is an assistant professor at the Department of Cognitive Science and Artificial Intelligence at Tilburg University. His research focuses on computational models of language learning from multimodal signals such as speech and vision and on the analysis and interpretability of representations emerging in deep neural networks. He has served as area chair for ACL, EMNLP and CoNLL, and was general chair for Benelearn 2018. He co-organized the 2018 and 2019 editions of BlackboxNLP, the Workshop on Analyzing and Interpreting Neural Networks for NLP. Together with Afra Alishahi and students, he did some of the pioneering research on analyzing deep learning methods for visually grounded language {% cite kadar2017 %}<!--(Kádár, Chrupała and Alishahi 2017, CL)--> as well as for speech {% cite alishahi2017 %} <!--(Alishahi, Barking and Chrupała 2017, CoNLL)-->. In their most recent work in the area of analysis and interpretation Chrupała and Alishahi {% cite chrupala2019 -A %} <!--(2019, ACL)--> introduced methods based on Representational Similarity Analysis (RSA) and Tree Kernels (TK) which directly quantify how strongly information encoded in neural activation patterns corresponds to information represented by symbolic structures.
 
 <img style="float: left; width: 20%; margin-right: 20px; margin-top: 10px; margin-bottom: 5px;" src="../assets/images/bisazza.jpg">
-**Arianna Bisazza**
-is an assistant professor at the Leiden Institute of Advanced Computer Science (LIACS) of Leiden University, fully funded by a VENI grant since 2016. Her research aims at identifying intrinsic limitations of current language modeling paradigms, and to design robust NLP algorithms that can adapt to a diverse range of linguistic phenomena observed among the world's languages. She has a long track record of contributions to machine translation for challenging language pairs {% cite bisazza2012 tran2014 fadaee2017 %}
+**Arianna Bisazza** is assistant professor at the Center for Language and Cognition (CLCG) of the University of Groningen, fully funded by a VENI grant since 2016 Her research aims at identifying intrinsic limitations of current language modeling paradigms, and to design robust NLP algorithms that can adapt to a diverse range of linguistic phenomena observed among the world's languages. She has a long track record of contributions to machine translation for challenging language pairs {% cite bisazza2012 tran2014 fadaee2017 %}
 <!--(Bisazza & Federico 2012; Tran, Bisazza & Monz, 2014; Fadaee, Bisazza & Monz, 2016)-->. Together with colleagues at the University of Amsterdam, she proposed the Recurrent Memory Network, one of the very first modifications to deep-learning based language models aimed at improving interpretability {% cite tran2016 %}<!--(Tran, Bisazza & Monz, 2016)-->. Other recent contributions to the interpretability of NLP models include analyses of MT outputs {% cite bentivogli2018 %}<!--(Bentivogli et al., 2018)--> and probing tasks for recurrent language models {% cite tran2018 bisazza2018 %}<!--(Tran, Bisazza, and Monz, 2018; Bisazza & Tump, 2018)-->.
 
 <img style="float: left; width: 20%; margin-right: 20px; margin-top: 10px; margin-bottom: 5px;" src="../assets/images/hupkes.jpg">
