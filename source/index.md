@@ -1,5 +1,5 @@
 ---
-title: 'Interpreting Deep Learning Models for Text and Sound: Methods & Applications'
+title: 'Interpreting Deep Learning Models for Text and Sound'
 layout: single
 permalink: /
 header:
