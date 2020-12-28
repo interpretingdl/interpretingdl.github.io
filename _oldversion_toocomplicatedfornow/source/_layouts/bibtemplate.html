@@ -1,0 +1,38 @@
+---
+---
+
+{% if entry.type == 'article' %}
+  {% assign publication = entry.journal %}
+{% else if entry.type == 'inproceedings' or entry.type == 'incollection' %}
+  {% assign publication = entry.booktitle %}
+{% else if entry.type == 'phdthesis' %}
+  {% assign publication = entry.title %}
+{% endif %}
+
+{% if publication == '' %}
+  {% assign publication = 'zzz' %}
+{% endif %}
+
+
+<div id="bib-item-{{ entry.key }}" class="bib-entry my-3"
+  data-searchable
+  data-year="{{ entry.year }}"
+  data-title="{{ entry.title }}"
+  data-author="{{ entry.author }}"
+  data-publication="{{ publication }}">
+  {{ reference }}<br>
+
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}" target="_blank" title="{{ entry.title }}">
+        <button type="button" class="btn btn--inverse">
+          DOI
+        </button></a>
+    {% endif %}
+    {% if entry.arxivid %}
+      <a href="https://arxiv.org/abs/{{ entry.arxivid }}" target="_blank">
+        <button type="button" class="btn btn--inverse">
+          arXiv
+        </button></a>
+    {% endif %}
+</div>
+<br>
